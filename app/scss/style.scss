@@ -314,7 +314,6 @@
         padding-left: 2px;
         padding-bottom: 5px;
     }
-
 }
 .icosvg-2{
     svg{
@@ -326,5 +325,40 @@
     svg{
         width: 86px;
         padding-left: 3px;
+    }
+}
+//author
+.author{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box{
+        max-width: 650px;
+        min-height: 215px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $green;
+    }
+    &__title{
+        font-size: 30px;
+        line-height: 30px;
+        color: #fff;
+        margin-right: 45px;
+        max-width: 270px;
+        span{
+            @include f700;
+        }
+    }
+    &__link{
+        font-size: 18px;
+        line-height: 36px;
+        padding: 14px 40px;
+        background-color: #fff;
     }
 }
