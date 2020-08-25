@@ -3352,6 +3352,25 @@ button.icon-unsorted {
   color: #8bc34a;
 }
 
+@media (max-width: 1200px) {
+  .withdrawals__inner {
+    display: block;
+  }
+  .withdrawals__col {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .withdrawals__content-item {
+    max-width: 490px;
+  }
+  .contact__form-row {
+    display: block;
+  }
+  .contact__form input {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1150px) {
   .footer__inner {
     -ms-flex-wrap: wrap;
@@ -3363,6 +3382,24 @@ button.icon-unsorted {
   }
   .header__text {
     display: none;
+  }
+}
+
+@media (max-width: 1020px) {
+  .product-one__tabs.settings__tabs {
+    display: block;
+  }
+  .product-one__tabs.settings__tabs .tabs {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .page-404__404::after {
+    width: 55px;
+    height: 107px;
+    background-size: cover;
   }
 }
 
@@ -3378,6 +3415,30 @@ button.icon-unsorted {
   }
   .footer__col-menu + .footer__col-menu {
     margin-left: 40px;
+  }
+  .contact__box {
+    display: block;
+  }
+  .profile__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .profile__aside {
+    max-width: 100%;
+  }
+  .profile__aside-btn {
+    width: 300px;
+  }
+  .aside__item {
+    width: 100%;
+  }
+  .profile__content {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 20px;
   }
 }
 
@@ -3419,6 +3480,32 @@ button.icon-unsorted {
   .menu__btn div + div {
     margin-top: 5px;
   }
+  .upload-line {
+    display: block;
+  }
+  .upload-line label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .upload__inner button {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 740px) {
+  .page-404__404 {
+    font-size: 200px;
+    line-height: 200px;
+  }
+  .page-404__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .page-404__text {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -3428,6 +3515,75 @@ button.icon-unsorted {
   }
   .circle__menu {
     right: auto;
+  }
+  .profile__banner-images {
+    min-height: 245px;
+  }
+  .profile__banner {
+    margin-bottom: 20px;
+  }
+  .profile__items {
+    display: block;
+  }
+  .profile__items .profile__item {
+    width: 100%;
+  }
+  .profile__item + .profile__item {
+    border-left: none;
+    border-top: 1px solid #dedede;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-404__inner {
+    padding: 0px 15px;
+  }
+  .page-404__404 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+  .page-404__404::after {
+    top: 16px;
+    right: 0;
+  }
+  .upload__inner-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .upload__inner-title {
+    padding: 16px 10px 18px;
+  }
+  .settings__line {
+    display: block;
+  }
+  .settings__line label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .page-box__content {
+    padding: 20px 10px 50px;
+  }
+  .page-box__title {
+    padding: 18px 10px;
+  }
+  .contact__inner {
+    padding: 35px 10px 15px;
+  }
+  .contact__head {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container {
+    padding: 0px 8px;
+  }
+  .contact__map iframe {
+    height: 300px;
+  }
+  .personal-box {
+    padding: 35px 10px 25px;
+  }
+  .profile__aside-btn {
+    width: 280px;
   }
 }
 
@@ -3441,6 +3597,16 @@ button.icon-unsorted {
   }
   .user__menu {
     top: 59px;
+  }
+  .withdrawals__content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .withdrawals__content-item {
+    min-width: 490px;
+  }
+  .withdrawals__content-items {
+    overflow-x: scroll;
   }
 }
 
@@ -3507,6 +3673,12 @@ button.icon-unsorted {
   }
   .user__images {
     margin-right: 0;
+  }
+  .page-404__head, .about__head, .contact__head {
+    padding: 13px 11px;
+  }
+  .about__inner {
+    padding: 13px 11px;
   }
 }
 
